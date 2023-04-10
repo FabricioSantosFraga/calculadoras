@@ -1,0 +1,52 @@
+.calculadora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+
+}
+.botoes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    margin-top: 10px;
+
+ 
+
+}
+.estrutura{
+    background-color: rgb(182, 184, 185);
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+
+    
+    
+    
+}
+button{
+    background-color: #fff;
+    font-size: 20px;
+    font-style:italic;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+    
+
+}
+button:hover{
+    background-color: #742020;
+    color: #fff;
+}
+
+.sinais{
+    background-color: tomato;
+    font-style: italic;
+    color: rgb(209, 27, 112);
+
+}
